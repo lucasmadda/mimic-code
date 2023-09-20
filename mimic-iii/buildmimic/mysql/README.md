@@ -18,5 +18,5 @@ Copy all the .sql files to your MIMIC data directory, and `cd` to that directory
 
 Run `mysql` with parameter `--local_infile=1`, which enables loading CSV files from the client site.
 
-Run `source ./1-define.sql`, `source ./2-index.sql` and `source 3-constraints.sql` to import
+Run `source ./1-define.sql`, `source ./2-index.sql` and `source ./3-constraints.sql` to import
        
